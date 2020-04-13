@@ -42,9 +42,9 @@ public class DenseStreamExample {
         /**
          * Initialize DenseStream Object
          */
-        //final String dataPath = "../coupled/tensors/denseAlert_example.txt";
-        final String dataPath = "example_data.txt";
-        final String output_file = "denseBlocks_output.txt";
+        final String dataPath = "../coupled/tensors/denseAlert_example.txt";
+        //final String dataPath = "example_data.txt";
+        final String output_file = "userhashtag_denseBlock.txt";
         final int order = 3;
         final String delim = ",";
         final DenseStream denseStream = new DenseStream(order);        
